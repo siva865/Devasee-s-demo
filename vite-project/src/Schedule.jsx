@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import './Schedule.css';
+import './schedule.css';
 import { MdToday, MdAccessTime } from 'react-icons/md';
 
 const schedule = [
