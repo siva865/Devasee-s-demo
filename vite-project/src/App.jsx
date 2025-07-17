@@ -4,7 +4,7 @@ import Hero from './Hero';
 import About from './About';
 import ClassCards from './Classcard';
 import Testimonials from './Testimonials';
-import Schedule from './Shedule';
+import Schedule from './Schedule';
 import ContactForm from './Contact';
 import Footer from './Footer';
 import './app.css';
