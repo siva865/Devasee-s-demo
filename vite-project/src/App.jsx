@@ -7,7 +7,7 @@ import Testimonials from './Testimonials';
 import Schedule from './Schedule';
 import ContactForm from './Contact';
 import Footer from './Footer';
-import './app.css';
+import './App.css';
 
 function App() {
   const [navOpen, setNavOpen] = useState(false);
