@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import './Navbar.css';
+import './navbar.css';
 
 const Navbar = ({ navOpen, setNavOpen }) => {
   const toggleNav = () => {
