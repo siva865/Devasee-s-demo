@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import './About.css';
+import './about.css';
 import { FaLeaf, FaHeart, FaPeace } from 'react-icons/fa';
 
 const About = () => {
