@@ -1,0 +1,73 @@
+.classes {
+  margin-bottom: 4rem;
+}
+
+.class-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  color: #B6AA90;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  color: #073130;
+  margin-bottom: 1rem;
+}
+
+.benefits-list {
+  list-style: none;
+  margin: 1.5rem 0;
+  text-align: left;
+}
+
+.benefits-list li {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.benefits-list li::before {
+  content: '✓';
+  color: #B6AA90;
+  position: absolute;
+  left: 0;
+}
+
+.class-button {
+  background-color: #073130;
+  color: #E8E1CD;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.class-button:hover {
+  background-color: #0a4a48;
+}
+
+@media (max-width: 768px) {
+  .class-cards {
+    grid-template-columns: 1fr;
+  }
+}
